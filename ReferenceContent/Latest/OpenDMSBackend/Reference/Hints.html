@@ -76,9 +76,24 @@
 <li><code>scriptcollection</code></li>
 <li><code>swagger</code></li>
 </ul>
-<p>When working with office-documents when running locally then it is required that <code>soffice</code> is available as commandline-command.</p>
 <h2 id="ide">IDE</h2>
 <p>The recommended IDE for this codeunit is <a href="https://visualstudio.com/">Visual Studio</a>.</p>
+<p>Start the project using the usual usual debug-button in Visual Studio.
+When you start the backend the first time then a configuration-file will be generated which will be used.
+This configuration-file is located in <code>&lt;repository-root&gt;\OpenDMSBackend\Other\Workspace\Configuration\Configuration.xml</code>.
+This configuration-file will always be used if available when running the backend locally.
+If a debugger is attached (which is typically the case when developing and starting the backend in the IDE) when the configuration-file is generated then an internal transient database-storage will be used instead of a persistent database.
+So to develop/debug the backend you do not have to run a local database, but you can if you want.
+If you want to use a real database when debugging then you have to configure it in <code>Configuration.xml</code>. by adjusting the <code>DatabasePersistenceConfiguration</code>-section accordingly:
+In this <code>DatabasePersistenceConfiguration</code>-section you can edit the <code>DatabaseType</code>-value and the <code>DatabaseConnectionString</code>-value.
+For running transient set <code>DatabaseType</code> to <code>Transient</code>.
+(In this case <code>DatabasePersistenceConfiguration</code> is not used obviously.)
+Apart from the transient-mode the supported values for <code>DatabaseType</code> are:</p>
+<ul>
+<li><code>PostgreSQL</code></li>
+<li><code>MariaDB</code></li>
+</ul>
+<p>To reset all your local backend-configuration-values etc. to a plain state you can simply remove the entire <code>&lt;repository-root&gt;\OpenDMSBackend\Other\Workspace</code>-folder.</p>
 </article>
           </div>
           

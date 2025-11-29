@@ -1,0 +1,173 @@
+{
+  "homepages": [],
+  "source_base_path": "E:/Data/Projects/OpenDMSBuild/Submodules/OpenDMS/OpenDMSBackend/Other/Reference",
+  "xrefmap": "xrefmap.yml",
+  "files": [
+    {
+      "type": "Conceptual",
+      "source_relative_path": "ReferenceContent/API/index.md",
+      "output": {
+        ".html": {
+          "relative_path": "API/index.html",
+          "hash": "71QneMpYc0ABSp23sPfmSJqOCVFd/ZO5CBvSsXnyxIc="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "ReferenceContent/Hints.md",
+      "output": {
+        ".html": {
+          "relative_path": "Hints.html",
+          "hash": "4NViuBRaGkFupR0S4epfL4b/yfpwVFQbdcYTOpIoAbA="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "ReferenceContent/articles/CommandlineParameter.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/CommandlineParameter.html",
+          "hash": "02H4nmxIb6qdUqo9pz2mSI/i7IYfedC/mdLrtg9FNvk="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "ReferenceContent/articles/EnvironmentDatabases.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/EnvironmentDatabases.html",
+          "hash": "DN4h4mjgcLqm8xD56SMsIFPe24PsB8B+XbfIG+hzMwg="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "ReferenceContent/articles/Installation.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/Installation.html",
+          "hash": "qQn/dycwArAtD9yi1Qi4OpjZLDCxIQTNHdH/QqFj3+g="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "ReferenceContent/articles/OCR.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/OCR.html",
+          "hash": "u6ro6Dt3SVFIYXafOLDAJiEuFosWfEfalIO59oLEbp8="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "ReferenceContent/articles/index.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/index.html",
+          "hash": "K2/gyaj8EJcITrgCKSqoVrAuTCvdG1tUScg01varh9U="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "ReferenceContent/articles/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "articles/toc.html",
+          "hash": "4woGAJ/47x1Y71dxAPpJ1Rl2ARdVgOJeKYayJBz787w="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "log_codes": [
+        "InvalidFileLink"
+      ],
+      "type": "Conceptual",
+      "source_relative_path": "ReferenceContent/index.md",
+      "output": {
+        ".html": {
+          "relative_path": "index.html",
+          "hash": "qdY1jDtW5olRX0hJIBxgGBzyJ3EtiSro+PKXZJsYf2s="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "ReferenceContent/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "toc.html",
+          "hash": "C2lH+YJJL86GZRZqZeT9JNi+j/Zdok0hCYqD10pceX0="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    }
+  ],
+  "incremental_info": [
+    {
+      "status": {
+        "can_incremental": false,
+        "details": "Cannot build incrementally because last build info is missing.",
+        "incrementalPhase": "build",
+        "total_file_count": 0,
+        "skipped_file_count": 0,
+        "full_build_reason_code": "NoAvailableBuildCache"
+      },
+      "processors": {
+        "ConceptualDocumentProcessor": {
+          "can_incremental": false,
+          "incrementalPhase": "build",
+          "total_file_count": 8,
+          "skipped_file_count": 0
+        },
+        "TocDocumentProcessor": {
+          "can_incremental": false,
+          "details": "Processor TocDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
+          "incrementalPhase": "build",
+          "total_file_count": 0,
+          "skipped_file_count": 0
+        }
+      }
+    },
+    {
+      "status": {
+        "can_incremental": false,
+        "details": "Cannot support incremental post processing, the reason is: last post processor info is null.",
+        "incrementalPhase": "postProcessing",
+        "total_file_count": 0,
+        "skipped_file_count": 0
+      },
+      "processors": {}
+    }
+  ],
+  "version_info": {},
+  "groups": [
+    {
+      "xrefmap": "xrefmap.yml"
+    }
+  ]
+}

@@ -1,0 +1,127 @@
+{
+  "homepages": [],
+  "source_base_path": "E:/Data/Projects/OpenDMSBuild/Submodules/OpenDMS/OpenDMSBackend/Other/Reference",
+  "xrefmap": "xrefmap.yml",
+  "files": [
+    {
+      "type": "Conceptual",
+      "source_relative_path": "ReferenceContent/Articles/CommandlineParameter.md",
+      "output": {
+        ".html": {
+          "relative_path": "Articles/CommandlineParameter.html",
+          "hash": "CddIdUyc5I5mec/2dvGUmF866/GYwlhKAM1W3sk03QI="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "ReferenceContent/Articles/Installation.md",
+      "output": {
+        ".html": {
+          "relative_path": "Articles/Installation.html",
+          "hash": "4/OffcCh8u7Nn2cDb/WVqzaXcYiRvPEIl+I4Z7MzIhY="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "ReferenceContent/Articles/OCR.md",
+      "output": {
+        ".html": {
+          "relative_path": "Articles/OCR.html",
+          "hash": "Uj3sRt7NGjr7rTYASfvfD/55YvzK2B7HZsh+wKLRA0E="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "ReferenceContent/Articles/SupportedDatabases.md",
+      "output": {
+        ".html": {
+          "relative_path": "Articles/SupportedDatabases.html",
+          "hash": "5lFXV9EoB3SWtGHwFvAyq/5P0b5DNjYtlAOtue1Ewno="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "ReferenceContent/Articles/index.md",
+      "output": {
+        ".html": {
+          "relative_path": "Articles/index.html",
+          "hash": "+65ubf6eGAgixHG3v+sHP1zHCNvCYKVWp1FrhUdLdCs="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "ReferenceContent/Hints.md",
+      "output": {
+        ".html": {
+          "relative_path": "Hints.html",
+          "hash": "NK43mXRYpOQ5PyEg9W7tOh5ZvtBHKEDjNQEBJf6DkTU="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "ReferenceContent/index.md",
+      "output": {
+        ".html": {
+          "relative_path": "index.html",
+          "hash": "247Plg47Bh34kYzZZxfpWQ2rtvS45Qn9RDRO4FKa+wg="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    }
+  ],
+  "incremental_info": [
+    {
+      "status": {
+        "can_incremental": false,
+        "details": "Cannot build incrementally because last build info is missing.",
+        "incrementalPhase": "build",
+        "total_file_count": 0,
+        "skipped_file_count": 0,
+        "full_build_reason_code": "NoAvailableBuildCache"
+      },
+      "processors": {
+        "ConceptualDocumentProcessor": {
+          "can_incremental": false,
+          "incrementalPhase": "build",
+          "total_file_count": 7,
+          "skipped_file_count": 0
+        }
+      }
+    },
+    {
+      "status": {
+        "can_incremental": false,
+        "details": "Cannot support incremental post processing, the reason is: last post processor info is null.",
+        "incrementalPhase": "postProcessing",
+        "total_file_count": 0,
+        "skipped_file_count": 0
+      },
+      "processors": {}
+    }
+  ],
+  "version_info": {},
+  "groups": [
+    {
+      "xrefmap": "xrefmap.yml"
+    }
+  ]
+}
